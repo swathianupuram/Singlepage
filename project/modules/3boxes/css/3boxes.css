@@ -1,0 +1,27 @@
+.box1,.box2,.box3{
+	float:left;
+	width:200px;
+	height:200px;
+	box-sizing:border-box;
+	margin:10px 0px 0px 10px;
+}
+	.box1{
+	   background-color:red;
+	   }
+	.box2{
+	
+		border:10px solid green;
+		}
+	.box3{
+		padding:100px;
+		background-color:blue;
+		}
+		@media screen and (max-width: 400px) {
+		.box1,.box2,.box3{
+			width:100px;
+			height:100px;
+		}
+		.box3{
+			padding:10px;
+		}
+		}

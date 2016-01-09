@@ -1,0 +1,12 @@
+.columnformat,
+.columnformat1 {
+    -webkit-column-count: 3;
+    margin: 100px;
+}
+
+@media screen and (max-width: 400px) {
+    .columnformat,
+    .columnformat1 {
+        margin: 10px;
+    }
+}

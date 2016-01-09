@@ -1,0 +1,31 @@
+@import url("../modules/menu/css/menu.css");
+@import url("../modules/home/css/home.css");
+@import url("../modules/humanface/css/humanface.css");
+@import url("../modules/textblur/css/textblur.css");
+@import url("../modules/firstlinecolor/css/firstlinecolor.css");
+@import url("../modules/firstandlastcolor/css/firstandlastcolor.css");
+@import url("../modules/columnformat/css/columnformat.css");
+@import url("../modules/footer/css/footer.css");
+@import url("../modules/circularimage/css/circularimage.css");
+@import url("../modules/borderimage/css/borderimage.css");
+@import url("../modules/hoverimage/css/hoverimage.css");
+@import url("../modules/3boxes/css/3boxes.css");
+@import url("../modules/creatingtriangle/css/creatingtriangle.css");
+@import url("../modules/emptyelement/css/emptyelement.css");
+@import url("../modules/list/css/list.css");
+@import url("../modules/button/css/button.css");
+@import url("../modules/tag/css/tag.css");
+ h1 {
+    margin-right: 500px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 4px;
+}
+
+
+@media screen and (max-width: 400px) {
+    h1 {
+        text-align: center;
+        margin: auto;
+    }
+   

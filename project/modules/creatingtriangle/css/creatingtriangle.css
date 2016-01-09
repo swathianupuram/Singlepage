@@ -1,0 +1,25 @@
+.triangle {
+    width: 180px;
+    height: 100px;
+    background: red;
+    position: relative;
+    margin: 100px 0px 0px 400px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.triangle:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 20px;
+    border-top: 15px solid transparent;
+    border-right: 30px solid red;
+    border-bottom: 15px solid transparent;
+}
+@media screen and (max-width: 400px) {
+.triangle{
+   margin:50px;
+}
+}
+

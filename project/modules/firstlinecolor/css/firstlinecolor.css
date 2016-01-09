@@ -1,0 +1,15 @@
+.firstline {
+    background-color: rgba(16, 0, 64, 0.15);
+    margin: 100px;
+    color: orange;
+}
+
+#line::first-line {
+    color: green;
+}
+
+@media screen and (max-width: 400px) {
+    .firstline {
+        margin: 10px;
+    }
+}

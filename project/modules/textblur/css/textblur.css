@@ -1,0 +1,12 @@
+.text h1 {
+    -webkit-filter: blur(2px);
+    color: green;
+    font-size: 100px;
+}
+
+@media screen and (max-width: 400px) {
+    .text h1 {
+        font-size: 50px;
+        margin: auto;
+    }
+}

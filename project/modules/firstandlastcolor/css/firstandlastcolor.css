@@ -1,0 +1,12 @@
+ #para:first-child {
+     color: orange;
+ }
+ 
+ #last:last-child {
+     color: orange;
+ }
+ 
+ .paracolor {
+ 	 background-color: rgba(16, 0, 64, 0.15);
+     margin: 10px;
+ }

@@ -1,0 +1,11 @@
+.image {
+    margin: 100px 0px 0px 600px;
+    width: 140px;
+    height: 140px;
+    border-radius: 1000px;
+}
+@media screen and (max-width: 400px) {
+    .image{
+margin:20px;
+    }
+}

@@ -1,0 +1,14 @@
+.borderimg1 {
+    width: 700px;
+    margin: 200px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("../image/borderimage.jpg") 30 round;
+}
+
+@media screen and (max-width: 400px) {
+    .borderimg1 {
+        width: 200px;
+        margin: 10px;
+    }
+}

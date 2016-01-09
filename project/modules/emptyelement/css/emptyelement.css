@@ -1,0 +1,26 @@
+.element:empty {
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+}
+
+.element {
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+@media screen and (max-width: 400px) {
+    .element:empty{
+        width:100px;
+        height:100px;
+    }
+    .element{
+        width:100px;
+        height:100px;
+    }
+}
+

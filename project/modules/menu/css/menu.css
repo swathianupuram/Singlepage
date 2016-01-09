@@ -1,0 +1,70 @@
+.menu {
+    background-color: black;
+    border-radius: 5px;
+    margin: auto;
+    word-spacing: 70px;
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        width: 100px;
+    }
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    .menu a {
+        padding: 5px;
+    }
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li:hover {
+    background: black;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    ul li ul {
+        margin-left: 40px;
+    }
+}
+
+ul li ul li {
+    background: black;
+    display: block;
+}
+
+ul li ul li a {
+    display: block
+}
+
+ul li ul li:hover {
+    background: grey;
+}

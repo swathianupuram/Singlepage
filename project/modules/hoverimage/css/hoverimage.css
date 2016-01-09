@@ -1,0 +1,20 @@
+.pic {
+    margin: 150px 0px 0px 600px;
+    width: 200px;
+    height: 200px;
+    background-image: url("../image/j1.jpg");
+}
+
+.pic:hover {
+    margin: 150px 0px 0px 600px;
+    width: 225px;
+    height: 225px;
+    background-image: url("../image/j2.jpg");
+}
+
+@media screen and (max-width: 400px) {
+    .pic,
+    .pic:hover {
+        margin: 10px;
+    }
+}

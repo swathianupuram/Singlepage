@@ -1,0 +1,19 @@
+button{
+width:300px;
+height:100px;
+border:2px dashed black;
+border-radius:20px;
+text-align:center;
+color:red;
+background-color:#4CAF50;
+cursor:pointer;
+box-shadow:0px 0px 0px 10px #4CAF50,10px 10px 20px #000;
+margin:200px 250px 300px 400px;
+}
+@media screen and (max-width: 400px) {
+    button{
+    	width:200px;
+    	height:70px;
+margin:50px;
+    }
+}
